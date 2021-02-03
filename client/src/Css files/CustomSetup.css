@@ -1,0 +1,73 @@
+.title{
+    text-align: center;
+    font-size: 4.5rem;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+.custom-layout{
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
+.custom-layout .control{
+    font-size: 1.2rem;
+    max-width: 10vw;
+    text-align: center;
+}
+
+.custom-layout .subtitle{
+    font-size: 3rem;
+}
+
+.tournament-title {
+    max-width: 100%;
+}
+
+.custom-layout .f-group{
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1vh;
+}
+
+.custom-layout .f-group .structure-control{
+    font-size: 1.2rem;
+    max-width: 30vw;
+    text-align: center;
+}
+
+.custom-layout .f-group .check{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.f-group-submit{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 7vh;
+}
+
+.f-group-submit .control{
+    font-size: 2rem;
+    max-width: 600px;
+}
+
+.f-group-structure .groups_number{
+    max-width: 70px;
+}
+
+.f-group-structure{
+    display: flex;
+}
+
+.f-group-structure img{
+    height: 40px;
+}

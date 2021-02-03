@@ -1,0 +1,42 @@
+.tournament-title{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.tournament-title div{
+    width: 100%;
+    text-align: center;
+}
+
+.matches-date{
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    padding: 3%;
+}
+
+.matches-date div{
+    width: 100%;
+    text-align: center;
+}
+
+.content-matches .col{
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+.content-matches .col.match-date{
+    font-weight: normal;
+    font-size: 1rem;
+}
+
+#export{
+    position: absolute;
+    top: 125px;
+    right: 250px;
+}
+
+
+#export img{
+    width: 23px;
+}

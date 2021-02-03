@@ -1,0 +1,102 @@
+.table{
+    width: 100%;
+    margin: 0%;
+    padding: 3%;
+    margin-bottom: 120px;
+}
+
+.title{
+    font-size: 3rem;
+    position: relative;
+}
+
+.title svg{
+    position: absolute;
+    left: 80%;
+    top: 20%;
+}
+
+.table td{
+    height: 70px;
+    font-size: 2rem;
+    transition: .2s;
+}
+
+
+.table tbody tr td{
+    display: flex;
+    justify-content: space-between;
+}
+
+.table tbody tr:active{
+    background-color: rgb(200, 200, 200);
+}
+
+.tick{
+    padding-top: 10px;
+    padding-bottom: 0px;
+    text-align: center;
+    width: 1%;
+}
+
+#add_team{
+    width: 90%;
+    padding-left: 30%;
+}
+
+#add_team .control{
+    font-size: 1rem;
+}
+
+#add_team .submit{
+    margin-top: 70px;
+    margin-left: 20px;
+    font-size: 1rem;
+}
+
+#search{
+    width: 94%;
+    margin: 0%;
+    padding: 3%;
+}
+
+#search .control{
+    width: 98%;
+    font-size: 3rem;
+}
+
+.red{
+    color: red;
+}
+
+.green{
+    color: green;
+}
+
+.team{
+    display: flex;
+    align-items: center;
+}
+
+.team{
+    font-size: 2rem;
+}
+
+.team .distance{
+    font-size: 1rem;
+    margin-left: 50px;
+}
+
+.team_city{
+    font-size: 2rem;
+}
+
+.team_name .control{
+    font-size: 2rem;
+
+}
+
+#team-selection-layout{
+    width: 100%;
+    height: 100%;
+}

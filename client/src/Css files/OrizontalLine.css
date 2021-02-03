@@ -1,0 +1,14 @@
+.orizontal-line{
+    min-width: 100%;
+    margin: 0%;
+    opacity: .7;
+    height: .1vh;
+    margin-bottom: 3vh;
+  }
+  
+  .orizontal-line img{
+    width: 100%;
+    height: 1px;
+  }
+
+  

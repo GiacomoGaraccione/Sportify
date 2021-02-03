@@ -1,0 +1,53 @@
+.center {
+    display: flex;
+    align-items: center;
+  }
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    display: none;
+    background-color: rgb(236, 225, 225);
+}
+
+.content-matches, .content-groups {
+  text-align: center;
+}
+
+.bold-text{
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.subtitle{
+    font-weight: bold;
+}
+
+.subtitle .col{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    max-width: 76.30px;
+    justify-content: center;
+}
+
+.row-team{
+    height: 70px;
+}
+
+.first-col{
+    min-width: 150px;
+    text-align: center;
+}
+
+.row-team .col{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.row-team .first-col{
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+

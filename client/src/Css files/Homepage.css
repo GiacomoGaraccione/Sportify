@@ -1,0 +1,21 @@
+.notification-container {
+  text-align: center;
+  position: absolute;
+  z-index: 999999;
+  transition: transform 0.6s ease-in;
+  animation: toast-in-left 0.7s;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: flex-start;
+  color: black;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.notification-container .notification-toast{
+  background-color:  #6DBD6C;
+  padding: 2%;
+  width: 100vw;
+  border: 3px solid #469860;
+}

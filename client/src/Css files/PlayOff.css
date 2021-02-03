@@ -1,0 +1,47 @@
+.custom{
+    margin-top: 30px;
+}
+
+.custom .reacket-match .reacket-match-id{
+    display: none;
+}
+
+.custom .reacket-match{
+    max-width: 220px;
+}
+
+.custom .reacket-round-header{
+    display: none;
+}
+
+.custom .reacket-connector{
+    max-width: 20px;
+}
+
+.custom .reacket-winner{
+    background-color: #F6F6F6;
+}
+
+.custom .reacket-player .reacket-player-seed, .reacket-player .reacket-player-score{
+    display: none;
+}
+
+.custom .reacket-player .reacket-player-name{
+    text-align: center;
+    color: black;
+}
+
+.custom .reacket-player{
+    border-left: solid 0.3rem #469860;
+}
+
+.custom .reacket-player.reacket-highlighted, .custom div.reacket-player.reacket-winner.reacket-highlighted .reacket-player{
+    background-color: #F6F6F6;
+    color: black;
+    cursor: auto;
+}
+
+.custom .reacket-player.reacket-highlighted .reacket-player-seed, .custom .reacket-player.reacket-highlighted .reacket-player-score, .custom .reacket-player.reacket-highlighted .reacket-player-name{
+    color: black;
+}
+

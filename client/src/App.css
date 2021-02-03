@@ -1,0 +1,192 @@
+.col-md-3 {
+  padding: 0%;
+  height: 100vh;
+}
+
+.col-md-9 {
+  padding: 0%;
+}
+
+div .side-navigation-panel-select-inner-option{
+  font-size: 1rem
+} 
+
+.sidenav {
+  overflow: scroll;
+  height: 75%; 
+  font-size: 1.1rem ;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.gianfrank{
+  position: fixed;
+  top: 97px;
+  width: 100px;
+}
+
+.orizontal-line.gianfrank img{
+  width: 21vw;
+}
+
+.sidenav::-webkit-scrollbar {
+  display: none; /* Hide scrollbar for Chrome, Safari and Opera */
+}
+
+div .side-navigation-panel-select-inner-option:hover{
+  border-color: #6DBD6C;
+} 
+
+div .border-pink-500 {
+  border-color: #469860;
+}
+
+div .side-navigation-panel-select-option:hover {
+  border-color: #6DBD6C;
+}
+
+.closeIcon {
+  float: left ;
+  height: 50px;
+  width: 0px;
+  margin-left: 1%;
+}
+
+.plusIcon {
+  position: absolute;
+  right: 25px;
+  bottom: 2vh;
+}
+
+.userIcon {
+  position: absolute;
+  left: 25px;
+  bottom: 2vh;
+}
+
+.img-responsive-width {
+  height: 100vh;
+  object-fit: cover;
+}
+
+.red{
+  color: red;
+}
+
+.carousel-indicators{
+  display: none;
+}
+
+.carousel-inner .content-groups{
+  margin-top: 25px;
+  width: 74vw;
+  padding-left: 3%;
+  padding-right: 3%;
+  border: 1px solid black;
+}
+
+.carousel-inner{
+  padding-left: 3%;
+  padding-right: 3%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.active .content-groups{
+  width: 72vw;
+}
+
+.content-groups{
+  margin-top: 25px;
+  width: 74vw;
+  padding-left: 3%;
+  padding-right: 3%;
+  border: 1px solid black;
+}
+
+.custom-header{
+  position: fixed;
+  width: 74vw;
+  z-index: 1;
+}
+
+.uff.subtitle{
+  margin-bottom: -20px;
+}
+
+.custom-groups{
+  margin-top: 0px;
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.custom-matches{
+  margin-top: 120px;
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.custom-header-playoff{
+  position: sticky;
+  width: 74vw;
+  z-index: 1;
+}
+
+.custom-header-guided{
+  position: sticky;
+  width: 74vw;
+  z-index: 1;
+}
+
+.custom-header-custom{
+  z-index: 1;
+}
+
+.custom-body{
+  margin-top: 100px;
+}
+
+.red-border{
+  border: 1px solid red;
+}
+
+.red-border:focus{
+  border: 2px solid red;
+}
+
+.custom-space{
+  height: 100px;
+  position: fixed;
+  margin-top: -20px;
+  width: 74vw;
+  z-index: 1;
+  background-color: white;
+}
+
+.guided-label{
+  font-size: 1.5rem;
+}
+
+.small-guided-label{
+  font-size: .8rem;
+}
+
+#larrow{
+  top: 120px;
+  right: 680px;
+}
+
+#rarrow{
+  top: 120px;
+  right: 70px;
+}
+
+.arrow{
+  z-index: -1;
+  width: 35px;
+  position: absolute;
+}

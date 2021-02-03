@@ -1,0 +1,23 @@
+.confirmElementCenter{
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.content{
+    font-size: 1rem;
+    font-weight: normal;
+}
+
+.subTitle{
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.space{
+    margin-top: 10px;
+}
+
+.assistentContent{
+    margin-left: 25px;
+}
